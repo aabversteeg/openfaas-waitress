@@ -12,7 +12,7 @@ Templates available in this repository:
 
 ## Getting started
 
-Note that an OpenFaas function name <function-name> cannot have underscores, while a Django project name <django-name> cannot have dashes.
+Note that an OpenFaas function name `<function-name>` cannot have underscores, while a Django project name `<django-name>` cannot have dashes.
 
 Download the template
 ```
@@ -54,11 +54,6 @@ Build, and deploy
 ```
 $ faas build -f <function-name>.yml
 $ faas deploy -f <function-name>.yml
-```
-
-Test the new function
-```
-$ echo -n content | faas invoke <function-name>
 ```
 
 Test the new function by navigating to: http://127.0.0.1:8080/function/<function-name>
